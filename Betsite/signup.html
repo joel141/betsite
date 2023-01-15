@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+<title>Signup</title>
+
+<style type="text/css">
+
+body {
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(homepage.png);
+background-position: center;
+background-size: cover;
+font-family:cursive;
+
+}
+
+.loginbox {
+display: flex;
+flex-direction: column;
+background-color: orange;
+width: 300px;
+height: 400px;
+padding-right: 20px;
+padding-left: 20px;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+text-align: center;
+
+
+}
+
+input {
+background-color: black;
+border-radius: 10px;
+border: none;
+gap: 5px;
+margin-top: 3px;
+margin-bottom: 5px;
+height: 30px;
+color: white;
+}
+
+button {
+background-color: black;
+color: white;
+border-radius: 10px;
+margin-top: 5px;
+border: none;
+width: 100px;
+text-align: center;
+}
+
+p {
+text-align: left;
+color: white;
+font-size: 13px;
+
+}
+ 
+form a {
+color: black;
+font-family: tahoma;
+font-size: 10px;
+}
+
+
+</style>
+
+</head>
+<body>
+
+
+<div class="loginbox" >
+<h2>
+Member Login
+</h2>
+
+<form class="box5login">
+
+<label for="email" >Email Address</label> <br>
+<input type="email" id="email" name="email">
+<br>
+<label for="password" >Password</label> <br>
+<input type="password" id="password" name="password">
+
+<br>
+<button type="submit" >Login</button>
+
+
+<p>
+Forget password? <a href="login.html">Am a new member</a>
+</p>
+</form>
+
+
+</div>
+
+</body>
+</html>

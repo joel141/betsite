@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+<title>Signup</title>
+
+<style type="text/css">
+
+body {
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(homepage.png);
+background-position: center;
+background-size: cover;
+font-family:cursive;
+
+}
+
+.loginbox {
+display: flex;
+flex-direction: column;
+background-color: orange;
+width: 300px;
+height: 600px;
+padding-right: 20px;
+padding-left: 20px;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+text-align: center;
+
+
+
+}
+
+input {
+background-color: black;
+border-radius: 10px;
+border: none;
+gap: 5px;
+margin-top: 3px;
+margin-bottom: 5px;
+height: 30px;
+color: white;
+}
+
+button {
+background-color: black;
+color: white;
+border-radius: 10px;
+margin-top: 50px;
+border: none;
+width: 100px;
+text-align: center;
+height: 40px;
+margin-bottom: 10px;%
+}
+
+.close {
+width: 50px;
+height: 50px;
+position:static;
+top: 5px;
+right: 0;
+background-color: black;
+font-family: tahoma;
+color: white;
+border-radius: 50%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.bar a {
+text-decoration: none;
+color: orange;
+font-weight: bold;
+}
+
+select {
+background: black;
+color: white;
+border: none;
+width: 200px;
+border-radius: 10px;
+height: 30px;
+text-align: center;
+margin-botton: 20px;
+}
+
+option {
+color: white;
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+<div class="bar" >
+<p class="close" ><a href="index.html">
+X</a>
+</p>
+</div>
+
+<div class="loginbox" >
+<h2>
+Sign up
+</h2>
+
+<form class="box4login">
+<label for="fname" >Firstname</label> <br>
+<input type="text" id="fname" name="fname">
+<br>
+
+<label for="lname" >Lastname</label> <br>
+<input type="text" id="lname" name="lname">
+
+<br>
+<label for="tel" >Phone number</label> <br>
+<input type="tel" id="tel" name="tel">
+
+<br>
+<label for="email" >Email Address</label> <br>
+<input type="email" id="email" name="email">
+<br>
+<label for="password" >Password</label> <br>
+<input type="password" id="password" name="password">
+
+<br>
+
+<label for="trading">Choose a trading option</label>
+
+<br>
+<select name="Trading option" id="trading">
+<option value="Over 1.5" >Over 1.5
+</option>
+
+<option value="Over 2.5" >Over 2.5
+</option>
+
+<option value="Under 2.5" >Under 2.5
+</option>
+
+<option value="Under 3.5" >Under 3.5
+</option>
+
+
+<option value="under 4.5" >Under 4.5
+</option>
+</select>
+
+<br>
+<button type="submit" >Register</button>
+
+<br>
+<a href="signup.html" >Already have an account</a>
+</form>
+
+
+</div>
+
+
+
+</body>
+</html>

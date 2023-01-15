@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joclass Virtual Football</title>
+
+<style type="text/css">
+
+body {
+background-color: black;
+background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(homepage.png);
+background-position: center;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+}
+img {
+width: 50px;
+}
+
+.header {
+display: flex;
+background-color: orange;
+font-size: 12px;
+font-family:Verdana,Arial,sans-serif;
+justify-content:center;
+align-items: center;
+font-weight:bolder;
+color: black;
+
+
+}
+ul {
+display: flex;
+list-style: none;
+text-align: right;
+gap: 5px;
+font-size: 8px;
+}
+li {
+list-style-type: none;
+list-style: none;
+text-decoration: none;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+h1 {
+font-size: 15px;
+}
+.login {
+background-color: black;
+width: 80px;
+border-radius: 10px;
+text-align:center;
+
+}
+
+.container span{
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+.container h2 {
+color: orange;
+font-size: 18px;
+font-weight: bold;
+font-family: arial black;
+display: block;
+text-align: center;
+}
+
+.container div {
+width: 120px;
+height: 150px;
+background-color: orange;
+border-radius: 10px;
+font-family:cursive;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: width 3s;
+}
+
+.contact h3 {
+font-size: 13px;
+color: black;
+}
+
+.contact p {
+font-size: 9px;
+}
+
+
+.container2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-items:center;
+border: 2px solid orange;
+border-radius: 10px;
+background-color: orange;
+height: 370px;
+width: 350px;
+transition: 3s;
+}
+
+
+hr {
+color: white;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.container2 h2 {
+color: white;
+font-size: 18px;
+text-align: center;
+}
+
+.form1 input {
+width: 300px;
+align-items:center;
+margin-top: 10px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+
+background-color: black;
+color: white;
+}
+
+label {
+color: white;
+font-family: arial;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.comment {
+height: 100px;
+}
+
+#box {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+</style>
+
+</head>
+<body>
+<header>
+<title>Contact us</title>
+</head>
+<body>
+
+<div class="header" >
+<img src="logo.png" alt="Logo" >
+<h1>Joclass Virtual Trading</h1>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutus.html" >About Us</a></li>
+<li><a href="contactus.html" >Contact Us</a></li>
+<li class="login" ><a href="login.html" >Login/Sign Up</a></li>
+</ul>
+</div>
+
+
+<section class="container" >
+<h2>Contact Us</h2>
+
+<span class="contact" >
+<div>
+<h3>Address</h3>
+<p>
+Plot 9 Road 4, Okocho Farmroad,
+Edegelem, Igbo-Etche, Etche L.G.A,
+Rivers State.
+</p>
+</div>
+
+<div>
+<h3>Telephone</h3>
+<p>+234 (0)703 549 7152</p>
+</div>
+
+<div>
+<h3>Connect</h3>
+</div>
+</span>
+
+</section>
+
+<hr>
+<div id="box" >
+<div class="container2" >
+<h2>Leave a Message</h2>
+
+<form class="form1" >
+<label for="email2" >Email</label> <br>
+<input type="email" id="email2" name="email2">
+<br>
+
+<label for="subject" >Subject</label> <br>
+<input type="text" id="subject" name="subject">
+<br>
+
+<label for="message" >Comment</label> <br>
+<input class="comment"  type="text" id="message" name="message">
+</form>
+
+
+
+</div>
+</div>
+
+</html>

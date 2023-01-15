@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url(homepage.png);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav img {
+  width: 150px;
+
+}
+ul {
+  display: flex;
+  list-style: none;
+  text-align: right;
+  gap: 5px;
+  font-size: 18px;
+  gap: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: navy
+}
+h1 {
+  font-size: 50px;
+  font-family: monospace;
+  color: rgb(7, 1, 1);
+}
+.login {
+  border: 2px solid white;
+  min-width: max-content;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+.container3 h2 {
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial black;
+  text-align: center;
+  text-decoration: 2px underline red;
+  letter-spacing: 5px;
+  ;
+}
+.container3 p {
+  font-size: 13px;
+  color: white;
+  font-style: italic;
+  font-family: times new roman;
+  text-align: center;
+}
